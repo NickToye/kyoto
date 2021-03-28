@@ -10,7 +10,9 @@ export default function Home() {
         <title>Kyoto - Tabs</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Tabs data={tabsList} />
+      <div className="p-md">
+        <Tabs data={tabsList} />
+      </div>
     </>
   );
 }
